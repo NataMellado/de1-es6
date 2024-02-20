@@ -6,18 +6,18 @@ class Impuestos {
         this.deducciones = deducciones;
     }
 
-    // Getters
+    // Getters y Setter de montoBrutoAnual
     get getMontoBrutoAnual() {
         return this.montoBrutoAnual;
     }
-
-    get getDeducciones() {
-        return this.deducciones;
-    }
-
-    // Setters
+    
     set setMontoBrutoAnual(montoBrutoAnual) {
         this.montoBrutoAnual = montoBrutoAnual;
+    }
+
+    // Getters y Setter de deducciones
+    get getDeducciones() {
+        return this.deducciones;
     }
 
     set setDeducciones(deducciones) {

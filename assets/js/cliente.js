@@ -8,18 +8,18 @@ class Cliente {
         this.impuestos = Impuestos;
     }
 
-    // Getters
+    // Getters y Setters de nombre
     get getNombre() {
         return this.nombre;
     }
 
-    get getImpuesto() {
-        return this.impuesto;
-    }
-
-    // Setters
     set setNombre(nombre) {
         this.nombre = nombre;
+    }
+
+    // Getters y Setters de impuestos
+    get getImpuesto() {
+        return this.impuesto;
     }
 
     set setImpuesto(impuesto) {
@@ -30,7 +30,6 @@ class Cliente {
     calcularImpuesto() {
         return this.impuestos.calcularImpuesto();
     }
-
 }
 
 export default Cliente;
